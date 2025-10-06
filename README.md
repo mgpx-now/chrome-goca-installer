@@ -31,12 +31,20 @@ Just one click — and Chrome is ready to roll. ⚡
 
 ### 🧩 How to Use
 
-# If curl is missing, install it with one of these:
+## If curl is missing, install it with one of these:
+```bash
 sudo apt install curl -y        # Standard Ubuntu package
+
+```
+
 # or
+```bash
 sudo snap install curl          # Snap version
+```
 
-Then, run this one command to launch the Chrome GOCA graphical installer:
+##Then, run this one command to launch the Chrome GOCA graphical installer:
 
+#Just copy this into your Ubuntu terminal:
+
+```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/mgpx-now/chrome-goca-installer/main/chrome-goca-installer.sh)
-
